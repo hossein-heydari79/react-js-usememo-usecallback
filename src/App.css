@@ -1,0 +1,35 @@
+.light,
+.dark {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.light div,
+.dark div {
+  margin: 0 auto;
+}
+
+.dark {
+  background: black;
+  color: white;
+}
+
+.button-container button {
+  background: black;
+  border: 0px;
+  height: 30px;
+  margin: 10px;
+}
+
+.light .button-container button {
+  color: white;
+}
+
+.dark .button-container button {
+  background: white;
+}

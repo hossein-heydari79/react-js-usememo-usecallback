@@ -1,9 +1,10 @@
 import './App.css';
+import UseMemo from './Components/UseMemo';
 
 function App() {
   return (
     <div>
-      hossein
+      <UseMemo />
     </div>
   );
 }
